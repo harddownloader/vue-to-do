@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["es6", "DOM"],
+    "target": "es5"
+  },
+  "exclude": ["node_modules"],
+  "files": ["src/shims-vue.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.vue"],
+  "paths": {
+    "@/*": ["src/*"]
+  }
+}
